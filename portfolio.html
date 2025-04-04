@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>    
-        <img src="C:\Users\HP\Downloads\batman.jpg" alt="Charles Kubai" class="profile-image">
-        <h1>Charles Kubai Wambu</h1>
-        <p>Software Engineering Student</p>
-        <p>Email: <a href="mailto:charleskubai92@gmail.com">charleskubai92@gmail.com</a></p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <img src="C:\Users\HP\Downloads\batman.jpg" alt="Charles Kubai" class="profile-image">
+            <div class="name-occupation">
+                <h1>Charles Kubai Wambu</h1>
+                <p>Software Engineering Student</p>
+            </div>
+        </div>
+        
     </header>
-   
-    <nav>
-        <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
     
+    
+    
+
     <section id="overview">
         <h2>Overview</h2>
-        <p>I am a highly motivated and detail-oriented final-year Software Engineering student with a strong foundation in software and web development. 
-           I am driven by a strong work ethic and a passion for making a meaningful impact in the world through technology.</p>
+        <p>I am a highly motivated and detail-oriented final-year Software Engineering student with a strong foundation in software and web development. I am driven by a strong work ethic and a passion for making a meaningful impact in the world through technology.</p>
     </section>
+
     
     <section id="experience">
         <h2>Experience</h2>
@@ -66,7 +72,85 @@
             <li>Time management</li>
         </ul>
     </section>
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>I am passionate about exploring emerging technologies such as Artificial Intelligence, Blockchain, and Cybersecurity. I also enjoy contributing to open-source projects and participating in hackathons to solve real-world problems. I want to change the world and make an impact by designing and developing user-friendly systems with seamless functionality that tackle real-world problems, especially in the medical and agricultural fields.</p>
+        <p>In my free time, I love reading tech blogs, playing football, and experimenting with new programming frameworks.</p>
+        <div class="polaroid-gallery">
+            <a href="project1.html">
+                <div class="polaroid">
+                    <img src="C:\Users\HP\Downloads\medical.jpeg" alt="Project 1">
+                    <div class="caption">AI for Healthcare</div>
+                </div>
+            </a>
+            <a href="project2.html">
+                <div class="polaroid">
+                    <img src="C:\Users\HP\Downloads\network.jpeg" alt="Project 2">
+                    <div class="caption">Blockchain Innovation</div>
+                </div>
+            </a>
+            <a href="project3.html">
+                <div class="polaroid">
+                    <img src="C:\Users\HP\Downloads\agriculture.jpeg" alt="Project 3">
+                    <div class="caption">Smart Agriculture</div>
+                </div>
+            </a>
+        </div>
+    </section>
     
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <strong>Network Automation Tool</strong> - A Python-based tool to automate IP address allocation and subnet management.
+            </li>
+            <li>
+                <strong>E-Commerce Website</strong> - Designed and currently developing a fully functional online shopping platform using HTML, CSS, and JavaScript.
+            </li>
+            <li>
+                <strong>Finance Tracker App</strong> - Developing a Flutter-based mobile app to help university students manage their finances effectively.
+            </li>
+            <li>
+                <strong>Open-Source Contributions</strong> - Contributed to various open-source projects on GitHub, focusing on bug fixes and feature enhancements.
+            </li>
+        </ul>
+    </section>
+    
+    <section class="progress-section">
+        <h2>My Modules</h2>
+        <ul class="progress-list">
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%">HTML & CSS - 90%</div>
+                </div>
+            </li>
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%">JavaScript - 85%</div>
+                </div>
+            </li>
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%">Python - 80%</div>
+                </div>
+            </li>
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%">Game Development - 75%</div>
+                </div>
+            </li>
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%">MySQL - 70%</div>
+                </div>
+            </li>
+            <li>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%">Hardware & Software Testing - 65%</div>
+                </div>
+            </li>
+        </ul>
+    </section>
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:charleskubai92@gmail.com">charleskubai92@gmail.com</a></p>
@@ -74,6 +158,53 @@
         <p>LinkedIn: <a href="https://linkedin.com/in/charleskubai" target="_blank">linkedin.com/in/charleskubai</a></p>
         <p>GitHub: <a href="https://github.com/Kubeibi" target="_blank">github.com/Kubeibi</a></p>
     </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <section id="comments">
+        <h2>Comments</h2>
+        <div class="comment-list">
+            <div class="comment">
+                <p class="comment-text">"This portfolio is amazing! Great work!"</p>
+                <p class="comment-author">Charles kubai</p>
+            </div>
+            <div class="comment">
+                <p class="comment-text">"I love the clean design and layout."</p>
+                <p class="comment-author">- Charles kubai</p>
+            </div>
+          
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const paragraphs = document.querySelectorAll("p");
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    }
+                });
+            }, { threshold: 0.1 });
+    
+            paragraphs.forEach((paragraph) => {
+                observer.observe(paragraph);
+            });
+        });
+    </script>      
 
     <footer>
         <p>&copy; 2025 Charles Kubai. All rights reserved.</p>
